@@ -4,12 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apply Form</title>
-    <link rel="stylesheet" , href="css/s  tyle.css" />
+    <link rel="stylesheet" , href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d4df8bdf88.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <div class="btn-group" role="group" aria-label="Basic example">
-    <button type="button" class="btn btn-primary btn-lg">New user</button>
-    <button type="button" class="btn btn-primary">I have an account</button>
+  <body>
 
-  </div>
-  <body></body>
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button-primary" class="btn btn-primary">
+        <i class="fa-solid fa-plus" style="color: #ffffff"> </i> New user
+      </button>
+      <button type="button-danger" class="btn btn-danger">
+        <i class="fa-solid fa-user" style="color: #ffffff"></i>
+        I have an account
+      </button>
+    </div>
+
+      <form action>
+      <fieldset>
+      <legend>Click to select!</legend>
+      <div class="personal-data">
+        <div class="email">
+      <label for="email"></label>
+      <input type="text" id="emai" name="email" placeholder="Email Address" size="40"  />
+    </div>
+      </br>
+
+      <div class="password">
+      <label for="password"></label>
+      <input type="text" id="password" name="password" placeholder="Password" size="40" />
+      </div>
+      </br>
+
+      <div class="confirmpassword">
+      <label for="confirmpassword"></label>
+      <input type="text" id="password" name="password" placeholder="Confirm Password" size="40" />
+      </div>
+      </br>
+
+      </div>
+      </fieldset>  
+      </form>
+  </body>
 </html>

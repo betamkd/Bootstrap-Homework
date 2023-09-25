@@ -1,3 +1,40 @@
-.buttonone {
-  background-color: blue;
+
+
+:root {
+  --bs-primary: #0d6efd;
+  --bs-danger: #dc3545;
+}
+
+button {
+  padding: 6px 46px;
+  border-radius: 3px;
+  font-size: medium;
+  color: white;
+  margin: -3px;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+}
+
+.btn-danger {
+  background-color: var(--bs-danger);
+}
+
+fieldset {
+  border: 0;
+}
+
+.personal-data {
+  color: grey;
+  border-color: grey;
+ 
+}
+
+.email {
+  
+}
+
+body {
 }
