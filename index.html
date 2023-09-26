@@ -9,6 +9,33 @@
       src="https://kit.fontawesome.com/d4df8bdf88.js"
       crossorigin="anonymous"
     ></script>
+    <style>
+      #email{
+        background-image: url(../images/envelope-solid.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+        border-radius: 3px;
+        padding: 4px 50px;
+        border-color: rgba(128, 128, 128, 0.471);
+        
+      }
+      #password{
+        background-image: url(../images/key-solid.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+        border-radius: 3px;
+        padding: 4px 50px;
+        border-color: rgba(128, 128, 128, 0.471);
+      }
+      #passwordconfirm{
+        background-image: url(../images/key-solid.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+        border-radius: 3px;
+        padding: 4px 50px;
+        border-color: rgba(128, 128, 128, 0.471);
+      }
+    </style>
   </head>
   <body>
 
@@ -21,15 +48,20 @@
         I have an account
       </button>
     </div>
+    
+    <div class="click">
+      <legend>Click to select!</legend>
+    </div>
 
       <form action>
       <fieldset>
-      <legend>Click to select!</legend>
+     
       <div class="personal-data">
         <div class="email">
-      <label for="email"></label>
-      <input type="text" id="emai" name="email" placeholder="Email Address" size="40"  />
-    </div>
+      <label for="email"> </label>
+      <input type="text" id="email" name="email" placeholder="Email Address" size="40" />
+    
+  </div>
       </br>
 
       <div class="password">
@@ -40,7 +72,7 @@
 
       <div class="confirmpassword">
       <label for="confirmpassword"></label>
-      <input type="text" id="password" name="password" placeholder="Confirm Password" size="40" />
+      <input type="text" id="passwordconfirm" name="password" placeholder="Confirm Password" size="40" />
       </div>
       </br>
 
